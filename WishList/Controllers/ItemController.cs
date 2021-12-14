@@ -48,7 +48,7 @@ namespace WishList.Controllers
 
             if (item != null)
             {
-                _context.Remove(item);
+                _context.Items.Remove(item);
                 _context.SaveChanges();
             }
 
